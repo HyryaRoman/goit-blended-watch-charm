@@ -176,3 +176,82 @@ p {
 
 .header__contact-icon {
 }
+
+.main {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hero-section {
+}
+
+.hero-container {
+}
+
+.hero__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.hero__main-content {
+}
+
+.hero__secondary-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero__title {
+  max-width: 597px;
+  margin-bottom: 20px;
+  font-size: 72px;
+  line-height: 0.875;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.hero__title-accent {
+  color: var(--accent);
+}
+
+.hero__text {
+  max-width: 480px;
+}
+
+.hero__icon-list {
+  display: flex;
+  max-width: 146px;
+}
+
+.hero__icon-list-item {
+  width: calc((100% - 60px) / 2);
+}
+
+.hero__icon-list-item:last-child {
+  width: 60px;
+}
+
+.hero_icon {
+  width: 60px;
+  height: 60px;
+}
+
+.hero__scroll-down {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-align: end;
+}
+
+.hero-section__banner {
+  border-radius: 50px;
+}
