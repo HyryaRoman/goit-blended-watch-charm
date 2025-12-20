@@ -352,3 +352,47 @@ p {
   line-height: 1.29;
   color: rgba(12, 12, 12, 0.5);
 }
+
+.contact-us-banner {
+}
+
+.contact-us-banner__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 83px 80px;
+  background-color: #0c0c0c;
+  background-image: url("/images/contact_us_banner_bg.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.contact-us-banner__title {
+  max-width: 690px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.92;
+  color: var(--background);
+}
+
+.contact-us-banner__title--accent {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.contact-us-banner__link {
+  display: block;
+  padding: 14px 43px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: var(--background);
+  border: 1px solid var(--background);
+  border-radius: 16px;
+}
+
+.contact-us-banner__link:hover,
+.contact-us-banner__link:focus {
+  color: var(--main);
+  background-color: var(--background);
+}
