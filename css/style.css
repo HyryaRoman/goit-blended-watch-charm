@@ -110,3 +110,69 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
+.logo {
+  display: block;
+  padding: 32px 0;
+  text-transform: lowercase;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.header {
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav {
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header__nav-list-item {
+}
+
+.header__nav-link {
+  display: block;
+  padding: 30px 0 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.285;
+}
+
+/* .header__nav-link--active::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  margin: 2px auto 0;
+} */
+
+.header__contacts {
+}
+
+.header__contact-list {
+  display: flex;
+  gap: 10px;
+}
+
+.header__contact-list-item {
+}
+
+.header__contact-link {
+  display: block;
+  padding: 32px 0;
+}
+
+.header__contact-icon {
+}
