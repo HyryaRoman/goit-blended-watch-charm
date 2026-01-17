@@ -610,6 +610,8 @@ p {
 }
 
 .contact-us-form__input {
+  display: block;
+
   width: 100%;
   height: 52px;
   padding: 16px 315px 16px 16px;
