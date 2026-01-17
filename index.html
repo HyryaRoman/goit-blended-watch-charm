@@ -395,23 +395,44 @@
                 phone, and message and we'll get back to you shortly.
               </p>
               <form class="contact-us-form">
-                <label>
+                <label class="contact-us-form__field">
                   <span class="visually-hidden">Name</span>
-                  <input type="text" placeholder="Name" name="name" />
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    name="name"
+                    class="contact-us-form__input"
+                  />
                 </label>
-                <label>
+                <label class="contact-us-form__field">
                   <span class="visually-hidden">Email</span>
-                  <input type="email" placeholder="Email" name="email" />
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                    class="contact-us-form__input"
+                  />
                 </label>
-                <label>
+                <label class="contact-us-form__field">
                   <span class="visually-hidden">Phone</span>
-                  <input type="tel" placeholder="+380" name="phone" />
+                  <input
+                    type="tel"
+                    placeholder="+380"
+                    name="phone"
+                    class="contact-us-form__input"
+                  />
                 </label>
-                <label>
+                <label class="contact-us-form__field">
                   <span class="visually-hidden">Comment</span>
-                  <textarea placeholder="Comment" name="comment"></textarea>
+                  <textarea
+                    placeholder="Comment"
+                    name="comment"
+                    class="contact-us-form__input contact-us-form__textarea"
+                  ></textarea>
                 </label>
-                <button type="submit">Send</button>
+                <button type="submit" class="contact-us-form__submit">
+                  Send
+                </button>
               </form>
             </div>
 
