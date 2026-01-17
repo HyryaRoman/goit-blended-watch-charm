@@ -1,7 +1,9 @@
 @font-face {
   font-family: "Gilroy";
   src: url("/fonts/Gilroy/Gilroy-Regular.eot");
-  src: local("Gilroy Regular"), local("Gilroy-Regular"),
+  src:
+    local("Gilroy Regular"),
+    local("Gilroy-Regular"),
     url("/fonts/Gilroy/Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
     url("/fonts/Gilroy/Gilroy-Regular.woff2") format("woff2"),
     url("/fonts/Gilroy/Gilroy-Regular.woff") format("woff"),
@@ -13,7 +15,9 @@
 @font-face {
   font-family: "Gilroy";
   src: url("/fonts/Gilroy/Gilroy-Medium.eot");
-  src: local("Gilroy Medium"), local("Gilroy-Medium"),
+  src:
+    local("Gilroy Medium"),
+    local("Gilroy-Medium"),
     url("/fonts/Gilroy/Gilroy-Medium.eot?#iefix") format("embedded-opentype"),
     url("/fonts/Gilroy/Gilroy-Medium.woff2") format("woff2"),
     url("/fonts/Gilroy/Gilroy-Medium.woff") format("woff"),
@@ -25,7 +29,9 @@
 @font-face {
   font-family: "Gilroy";
   src: url("/fonts/Gilroy/Gilroy-Semibold.eot");
-  src: local("Gilroy Semibold"), local("Gilroy-Semibold"),
+  src:
+    local("Gilroy Semibold"),
+    local("Gilroy-Semibold"),
     url("/fonts/Gilroy/Gilroy-Semibold.eot?#iefix") format("embedded-opentype"),
     url("/fonts/Gilroy/Gilroy-Semibold.woff2") format("woff2"),
     url("/fonts/Gilroy/Gilroy-Semibold.woff") format("woff"),
@@ -37,7 +43,9 @@
 @font-face {
   font-family: "Gilroy";
   src: url("/fonts/Gilroy/Gilroy-Bold.eot");
-  src: local("Gilroy Bold"), local("Gilroy-Bold"),
+  src:
+    local("Gilroy Bold"),
+    local("Gilroy-Bold"),
     url("/fonts/Gilroy/Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
     url("/fonts/Gilroy/Gilroy-Bold.woff2") format("woff2"),
     url("/fonts/Gilroy/Gilroy-Bold.woff") format("woff"),
@@ -114,8 +122,8 @@ p {
 }
 
 .logo {
-  display: block;
-  padding: 32px 0;
+  display: flex;
+  align-items: center;
   text-transform: lowercase;
   font-size: 20px;
   line-height: 1.2;
@@ -173,7 +181,7 @@ p {
 
 .header__contact-link {
   display: block;
-  padding: 32px 0;
+  padding: 26px 0;
 }
 
 .header__contact-icon {
