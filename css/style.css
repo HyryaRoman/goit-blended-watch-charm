@@ -427,3 +427,117 @@ p {
   color: var(--main);
   background-color: var(--background);
 }
+
+.sale-section {
+  display: flex;
+  gap: 40px;
+}
+
+.sale-gallery {
+  display: grid;
+  grid-template-columns: min-content min-content;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px 20px;
+  grid-template-areas:
+    ". main"
+    ". main"
+    ". main"
+    ". main";
+}
+
+.sale-gallery__preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 20px;
+  background: var(--cards);
+}
+
+.sale-gallery__preview.sale-gallery__preview--main {
+  grid-area: main;
+  padding: 80px 50px;
+}
+
+.sale-description {
+  padding: 60px;
+  border-radius: 50px;
+  background: var(--accent);
+  color: var(--background);
+}
+
+.sale-description__title {
+  max-width: 389px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.13;
+  letter-spacing: -0.02em;
+  color: var(--background);
+}
+
+.sale-description__product-tag {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-description__price {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 30px;
+}
+
+.sale-description__current-price {
+  display: inline-block;
+  padding: 8px 12px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--background);
+  border-radius: 8px;
+  background: rgba(251, 251, 251, 0.1);
+}
+
+.sale-description__old-price {
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-description__description {
+  max-width: 410px;
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+}
+
+.sale-description__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.sale-description__tags > li {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: var(--background);
+}
