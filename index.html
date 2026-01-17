@@ -388,24 +388,41 @@
       <section class="section" id="contact-us">
         <div class="container">
           <h2 class="section__title">Contact Us</h2>
-          <p>
-            Please use the form below to contact us. Enter your name, email,
-            phone, and message and we'll get back to you shortly.
-          </p>
-          <form>
-            <input type="text" placeholder="Name" name="name" />
-            <input type="email" placeholder="Email" name="email" />
-            <input type="tel" placeholder="+380" name="phone" />
-            <textarea placeholder="Comment" name="comment"></textarea>
-            <button type="submit">Send</button>
-          </form>
+          <div class="contact-us">
+            <div class="contact-us__form-wrapper">
+              <p class="contact-us__form-note">
+                Please use the form below to contact us. Enter your name, email,
+                phone, and message and we'll get back to you shortly.
+              </p>
+              <form class="contact-us-form">
+                <label>
+                  <span class="visually-hidden">Name</span>
+                  <input type="text" placeholder="Name" name="name" />
+                </label>
+                <label>
+                  <span class="visually-hidden">Email</span>
+                  <input type="email" placeholder="Email" name="email" />
+                </label>
+                <label>
+                  <span class="visually-hidden">Phone</span>
+                  <input type="tel" placeholder="+380" name="phone" />
+                </label>
+                <label>
+                  <span class="visually-hidden">Comment</span>
+                  <textarea placeholder="Comment" name="comment"></textarea>
+                </label>
+                <button type="submit">Send</button>
+              </form>
+            </div>
 
-          <img
-            src="./images/demo_clock_2.png"
-            alt="Black and white photo of a wristwatch"
-            width="530"
-            height="556"
-          />
+            <img
+              src="./images/demo_clock_2.png"
+              alt="Black and white photo of a wristwatch"
+              width="530"
+              height="556"
+              class="contact-us__photo"
+            />
+          </div>
         </div>
       </section>
     </main>
