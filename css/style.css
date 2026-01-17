@@ -160,7 +160,7 @@ p {
   line-height: 1.285;
 }
 
-/* .header__nav-link.header__nav-link--active::after {
+.header__nav-link.header__nav-link--active::after {
   content: "";
   display: block;
   width: 8px;
@@ -168,7 +168,7 @@ p {
   border-radius: 50%;
   background-color: var(--accent);
   margin: 2px auto 0;
-} */
+}
 
 .header__contacts {
 }
