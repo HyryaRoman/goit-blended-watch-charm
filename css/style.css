@@ -541,3 +541,37 @@ p {
   line-height: 1.29;
   color: var(--background);
 }
+
+.reviews {
+  display: flex;
+  gap: 20px;
+}
+
+.reviews > li {
+  padding: 32px 36px;
+  border-radius: 30px;
+  background: var(--cards);
+  text-align: center;
+}
+
+.review__icon {
+  margin: 0 auto 24px;
+}
+
+.review__name {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--main);
+}
+
+.review__comment {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.4);
+}
+
