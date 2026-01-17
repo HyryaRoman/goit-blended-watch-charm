@@ -325,6 +325,7 @@ p {
   line-height: 1.29;
   color: var(--background);
   background-color: var(--accent);
+  transition: background-color var(--default-transition);
 }
 
 .about-us__link:hover,
@@ -416,6 +417,9 @@ p {
   color: var(--background);
   border: 1px solid var(--background);
   border-radius: 16px;
+  transition:
+    background-color var(--default-transition),
+    color var(--default-transition);
 }
 
 .contact-us-banner__link:hover,
